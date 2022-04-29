@@ -17,7 +17,7 @@ intents.members = True
 
 
 if not os.path.isfile("config.json"):
-    sys.exit("'Please Add the token on config.json file")
+    sys.exit("'Please Add the token on the config.json file")
 else:
     with open("config.json") as file:
         config = json.load(file)
