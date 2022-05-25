@@ -12,11 +12,3 @@ Update 0.0.1
 
 - Small changes to grammar
 - Removed a role that could cause problems
-
-# pay attention 
-
-FOR EDUCATIONAL PURPOSES ONLY
-
-I am not responsible for what you will do with this script.
-
-(violates the terms and tos of discord)
